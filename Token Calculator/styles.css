@@ -1,0 +1,43 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0px;
+    background-image: linear-gradient(#9966ff, black);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem; /*raising font size slightly for clarity and aesthetic*/
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+#wrapper { /*Wrapping our page elements to be centered.*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100vh;
+    width: 45%;
+    background-color:  #e6e6e6;
+    border-radius: 50px; /*Rounds out or sharp edges*/
+
+}
+
+p {
+    line-height: 3rem; /*Adjusting line height for separation/clarity*/
+    text-align: center;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color:darkmagenta;
+}
+
+i{
+    color: #9966ff;
+    font-size: 2rem;
+}
